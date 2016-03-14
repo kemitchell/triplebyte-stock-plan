@@ -1,4 +1,7 @@
 CF=node_modules/.bin/commonform
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet
+
+all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
 Stock-Plan.docx: Stock-Plan.cform $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Year] Stock Plan" -n pae > $@
