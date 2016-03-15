@@ -1,5 +1,6 @@
 CF=node_modules/.bin/commonform
-TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Option-Country-Addendum Option-Exercise-Agreement
+CFT=node_modules/.bin/cftemplate
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Option-Country-Addendum Option-Exercise-Agreement Board-Consent
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
@@ -24,8 +25,14 @@ Option-Country-Addendum.docx: Option-Country-Addendum.cform $(CF)
 Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-Agreement.json $(CF)
 	$(CF) render -f docx -t "Exercise Agreement" -n outline -s Option-Exercise-Agreement.json $< > $@
 
+Board-Consent.docx: Board-Consent.cform Board-Consent.json $(CF)
+	$(CF) render -f docx -t "Action by Unanimous Written Consent of the Board of Directors of [Company Name]" -n rse -s Board-Consent.json < $< > $@
+
+%.cform: %.cftemplate $(CFT)
+	$(CFT) $< > $@
+
 %.pdf: %.docx
 	doc2pdf $<
 
-$(CF):
+$(CF) $(CFT):
 	npm i
