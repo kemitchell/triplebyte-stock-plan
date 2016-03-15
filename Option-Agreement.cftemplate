@@ -28,8 +28,23 @@
 
         \ Method of Exercise \
 
+
             \\
-            This <Option> shall be exercisable by execution and delivery of the Exercise Agreement attached hereto as Exhibit A or of any other form of written notice approved for such purpose by the <Company> which shall state <Optionee>'s election to exercise this <Option>, the number of <Shares> in respect of which this <Option> is being exercised, and such other representations and agreements as to the holder's investment intent with respect to such <Shares> as may be required by the <Company> pursuant to the provisions of the <Plan>. 
+            This <Option> shall be exercisable by execution and delivery of 
+
+            (( if Early Exercise begin ))
+
+            the <Early Exercise Notice> and <Restricted Stock Purchase Agreement> attached hereto as {Restricted Stock Purchase Agreement}, the <Exercise Agreement> attached hereto as {Exercise Agreement} (to the extent <Optionee> exercises the <Option> with respect to vested shares only) 
+
+            (( end ))
+
+            (( unless Early Exercise begin ))
+
+            the Exercise Agreement attached hereto as {Exercise Agreement}
+
+            (( end ))
+
+            or of any other form of written notice approved for such purpose by the <Company> which shall state <Optionee>'s election to exercise this <Option>, the number of <Shares> in respect of which this <Option> is being exercised, and such other representations and agreements as to the holder's investment intent with respect to such <Shares> as may be required by the <Company> pursuant to the provisions of the <Plan>. 
             Such written notice shall be signed by <Optionee> and shall be delivered to the <Company> by such means as are determined by the <Company> in its discretion to constitute adequate delivery. 
             The written notice shall be accompanied by payment of the aggregate <Exercise Price> for the purchased <Shares>.
 
