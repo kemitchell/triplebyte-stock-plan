@@ -1,7 +1,8 @@
-    \\ This Restricted Stock Purchase Agreement (this ""Agreement"") is made as of [Date] by and between [Company Name], a Delaware corporation (the ""Company""), and [Purchaser Name] (""Purchaser"") pursuant to the <Company>'s [YEAR] Stock Plan (the ""Plan""). To the extent any capitalized terms used in this <Agreement> are not defined, they shall have the meaning ascribed to them in the <Plan>.
+    \\ This Restricted Stock Purchase Agreement (this ""Agreement"") is made as of [Date] by and between [Company Name], a Delaware corporation (the ""Company""), and [Purchaser Name] (""Purchaser"") pursuant to the <Company>'s [YEAR] Stock Plan (the ""Plan""). 
+    To the extent any capitalized terms used in this <Agreement> are not defined, they shall have the meaning ascribed to them in the <Plan>.
 
         \  Sale of Stock \
-        Subject to the terms and conditions of this <Agreement>, simultaneously with the execution and delivery of this <Agreement> by the parties or on such other date as the <Company> and <Purchaser> shall agree (the ""Purchase Date""), the <Company> will issue and sell to <Purchaser>, and <Purchaser> agrees to purchase from the <Company>, __________ shares of the <Company>'s <Common Stock> (the ""Shares"") at a purchase price of USD $__________ per share for a total purchase price of USD $__________ (the ""Aggregate Purchase Price""). 
+        Subject to the terms and conditions of this <Agreement>, simultaneously with the execution and delivery of this <Agreement> by the parties or on such other date as the <Company> and <Purchaser> shall agree (the ""Purchase Date""), the <Company> will issue and sell to <Purchaser>, and <Purchaser> agrees to purchase from the <Company>, [Shares] shares of the <Company>'s <Common Stock> (the ""Shares"") at a purchase price of USD [Purchase Price per Share] per share for a total purchase price of USD [Total Purchase Price] (the ""Aggregate Purchase Price""). 
         On the <Purchase Date>, <Purchaser> will deliver the <Aggregate Purchase Price> to the <Company> and the <Company> will enter the <Shares> in <Purchaser>'s name as of such date in the books and records of the <Company> or, if applicable, a duly authorized transfer agent of the <Company>. 
         The <Company> will deliver to <Purchaser> a stock certificate or, in the case of uncertificated securities, upon request, a notice of issuance for the <Shares> as soon as practicable following such date. 
         As used elsewhere herein, the term <Shares> refers to all of the <Shares> purchased hereunder and all securities received in connection with the <Shares> pursuant to stock dividends or splits, all securities received in replacement of the <Shares> in a recapitalization, merger, reorganization, exchange or the like, and all new, substituted or additional securities or other property to which <Purchaser> is entitled by reason of <Purchaser>'s ownership of the <Shares>. 
@@ -11,22 +12,25 @@
         Payment of the <Aggregate Purchase Price> shall be made by any method permitted by the <Company> and authorized under the <Plan>. 
         In addition, <Purchaser> shall satisfy any applicable tax, withholding obligations, required deductions or other payments, all in accordance with the <Plan>.
 
-        \  Limitations on Transfer \
-        <Purchaser> acknowledges and agrees that the <Shares> purchased under this <Agreement> are subject to
+        \ Limitations on Transfer \
 
-            \\
-            the transfer restrictions set forth in Section 12 of the <Plan>,
+            \ Acknowledgment \
+            <Purchaser> acknowledges and agrees that the <Shares> purchased under this <Agreement> are subject to
 
-            \\
-            the terms and conditions that apply to the <Company>'s <Common Stock>, as set forth in the <Company>'s Bylaws, 
-            # [including (without limitation) certain transfer restrictions set forth in Section [__] of the <Company>'s Bylaws,]
-            as may be in effect at the time of any proposed transfer (the ""Bylaw Provisions""), and
+                \\
+                the transfer restrictions set forth in Section 12 of the <Plan>,
 
-            \\
-            any other limitation or restriction on transfer created by <Applicable Laws>.
+                \\
+                the terms and conditions that apply to the <Company>'s <Common Stock>, as set forth in the <Company>'s Bylaws, 
+                # [including (without limitation) certain transfer restrictions set forth in Section [__] of the <Company>'s Bylaws,]
+                as may be in effect at the time of any proposed transfer (the ""Bylaw Provisions""), and
 
-        In addition to the foregoing limitations on transfer, <Purchaser> shall not assign, encumber or dispose of any interest in the <Shares> while the <Shares> are subject to the <Company>'s <Repurchase Option>. 
-        After any <Shares> have been released from such <Repurchase Option>, <Purchaser> shall not assign, encumber or dispose of any interest in the <Shares> except to the extent permitted by, and in compliance with, Section 12 of the <Plan>, the <Bylaw Provisions>, <Applicable Laws>, and the provisions below.
+                \\
+                any other limitation or restriction on transfer created by <Applicable Laws>.
+
+            In addition to the foregoing limitations on transfer, 
+            <Purchaser> shall not assign, encumber or dispose of any interest in the <Shares> while the <Shares> are subject to the <Company>'s <Repurchase Option>. 
+            After any <Shares> have been released from such <Repurchase Option>, <Purchaser> shall not assign, encumber or dispose of any interest in the <Shares> except to the extent permitted by, and in compliance with, Section 12 of the <Plan>, the <Bylaw Provisions>, <Applicable Laws>, and the provisions below.
 
             \ Repurchase Option; Vesting \
 
@@ -173,22 +177,25 @@
             <Purchaser> understands that <Purchaser> may suffer adverse tax consequences as a result of <Purchaser>'s purchase or disposition of the <Shares>. 
             <Purchaser> represents that <Purchaser> has consulted any tax consultants <Purchaser> deems advisable in connection with the purchase or disposition of the <Shares> and that <Purchaser> is not relying on the <Company> for any tax advice.
 
-        \  Voting Provisions \
+        \ Voting Provisions \
         As a condition precedent to entering into this <Agreement>, at the request of the <Company>, <Purchaser> shall become a party to any voting agreement to which the <Company> is a party at the time of <Purchaser>'s execution and delivery of this <Agreement>, as such voting agreement may be thereafter amended from time to time (the ""Voting Agreement""), by executing an adoption agreement or counterpart signature page agreeing to be bound by and subject to the terms of the <Voting Agreement> and to vote the <Shares> in the capacity of a "Common Holder" and a "Stockholder," as such terms may be defined in the <Voting Agreement>.
 
         \ Restrictive Legends and Stop-Transfer Orders \
 
             \ Legends \
-            Any stock certificate or, in the case of uncertificated securities, any notice of issuance, for the <Shares>, shall bear the following legends (as well as any legends required by the <Company> or applicable state and federal corporate and securities laws):
+            Any stock certificate or, in the case of uncertificated securities, any notice of issuance, for the <Shares> shall bear the following legends (as well as any legends required by the <Company> or applicable state and federal corporate and securities laws):
 
                 \!!
-                "The securities referenced herein have not been registered under the Securities Act of 1933, and have been acquired for investment and not with a view to, or in connection with, the sale or distribution thereof. No such sale or distribution may be effected without an effective registration statement related thereto or an opinion of counsel in a form satisfactory to the company that such registration is not required under the Securities Act of 1933."
+                "The securities referenced herein have not been registered under the Securities Act of 1933, and have been acquired for investment and not with a view to, or in connection with, the sale or distribution thereof. 
+                No such sale or distribution may be effected without an effective registration statement related thereto or an opinion of counsel in a form satisfactory to the company that such registration is not required under the Securities Act of 1933."
 
                 \ Transfer Restriction Legend !!
                 "The securities referenced herein may be transferred only in accordance with the terms of an agreement between the company and the stockholder, a copy of which is on file with and may be obtained from the secretary of the company at no charge."
 
                 \!!
-                "The transfer of the securities referenced herein is subject to certain transfer restrictions set forth in [the company's bylaws (as amended from time to time) and] the company's stock plan, copies of which may be obtained upon written request to the company at its principal place of business. The company shall not register or otherwise recognize or give effect to any purported transfer of securities that does not comply with such transfer restrictions."
+                "The transfer of the securities referenced herein is subject to certain transfer restrictions set forth in 
+                # [the company's bylaws (as amended from time to time) and] 
+                the company's stock plan, copies of which may be obtained upon written request to the company at its principal place of business. The company shall not register or otherwise recognize or give effect to any purported transfer of securities that does not comply with such transfer restrictions."
 
                 \\
                 Any legend required by the <Voting Agreement>, as applicable.
@@ -227,7 +234,7 @@
             A statement of all of the rights, preferences, privileges and restrictions granted to or imposed upon the respective classes and/or series of shares of stock of the <Company> and upon the holders thereof may be obtained by any stockholder upon request and without charge, at the principal office of the <Company>, and the <Company> will furnish any stockholder, upon request and without charge, a copy of such statement. 
             <Purchaser> acknowledges that the provisions of {Restrictive Legends and Stop-Transfer Orders} shall constitute the notices required by Sections 151(f) and 202(a) of the Delaware General Corporation Law and the <Purchaser> hereby expressly waives the requirement of Section 151(f) of the Delaware General Corporation Law that it receive the written notice provided for in Sections 151(f) and 202(a) of the Delaware General Corporation Law within a reasonable time after the issuance of the <Shares>.
 
-        \  No Employment Rights \
+        \ No Employment Rights \
         Nothing in this <Agreement> shall affect in any manner whatsoever the right or power of the <Company>, or a parent, subsidiary or affiliate of the <Company>, to terminate <Purchaser>'s employment or consulting relationship, for any reason, with or without cause.
 
         \  Section 83(b) Election \
@@ -257,10 +264,10 @@
         \ Miscellaneous \
 
             \ Governing Law \
-            The validity, interpretation, construction and performance of this <Agreement>, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of the state of [California], without giving effect to principles of conflicts of law. 
-            For purposes of litigating any dispute that may arise directly or indirectly from this <Agreement>, the parties hereby submit and consent to the exclusive jurisdiction of the state of [California] and agree that any such litigation shall be conducted only in the courts of [California] or the federal courts of the United States located in [California] and no other courts.
+            The validity, interpretation, construction and performance of this <Agreement>, and all acts and transactions pursuant hereto and the rights and obligations of the parties hereto shall be governed, construed and interpreted in accordance with the laws of the state of California, without giving effect to principles of conflicts of law. 
+            For purposes of litigating any dispute that may arise directly or indirectly from this <Agreement>, the parties hereby submit and consent to the exclusive jurisdiction of the state of California and agree that any such litigation shall be conducted only in the courts of California or the federal courts of the United States located in California and no other courts.
 
-            \ Entire Agreement\
+            \ Entire Agreement \
             This <Agreement> sets forth the entire agreement and understanding of the parties relating to the subject matter herein and supersedes all prior or contemporaneous discussions, understandings and agreements, whether oral or written, between them relating to the subject matter hereof.
 
             \ Amendments and Waivers \
@@ -292,10 +299,11 @@
             This <Agreement> is the result of negotiations between and has been reviewed by each of the parties hereto and their respective counsel, if any; accordingly, this <Agreement> shall be deemed to be the product of all of the parties hereto, and no ambiguity shall be construed in favor of or against any one of the parties hereto.
 
             \ Counterparts \
-            This <Agreement> may be executed in any number of counterparts, each of which when so executed and delivered shall be deemed an original, and all of which together shall constitute one and the same agreement. Execution of a facsimile or scanned copy will have the same force and effect as execution of an original, and a facsimile or scanned signature will be deemed an original and valid signature.
+            This <Agreement> may be executed in any number of counterparts, each of which when so executed and delivered shall be deemed an original, and all of which together shall constitute one and the same agreement. 
+            Execution of a facsimile or scanned copy will have the same force and effect as execution of an original, and a facsimile or scanned signature will be deemed an original and valid signature.
 
             \ Electronic Delivery \
-            The <Company> may, in its sole discretion, decide to deliver any documents related to this <Agreement> or any notices required by applicable law or the <Company>'s Certificate of Incorporation or Bylaws by email or any other electronic means. 
+            The <Company> may, in its sole discretion, decide to deliver any documents related to this <Agreement> or any notices required by <Applicable Law> or the <Company>'s Certificate of Incorporation or Bylaws by email or any other electronic means. 
             <Purchaser> hereby consents to
 
                 \\
@@ -313,7 +321,7 @@
             Furthermore, <Purchaser> acknowledges that the laws of the country in which <Purchaser> is working at the time of grant of this <Agreement>, the purchase, vesting or sale of <Shares> received pursuant to this <Agreement> (including any rules or regulations governing securities, foreign exchange, tax, labor, or other matters) may subject <Purchaser> to additional procedural or regulatory requirements that <Purchaser> is and will be solely responsible for and must fulfill.
 
             \ California Corporate Securities Law !!
-            The sale of the securities which are the subject of this agreement has not been qualified with the Commissioner of Business Oversight of the State of California and the issuance of the securities or the payment or receipt of any part of the consideration therefor prior to the qualification is unlawful, unless the sale of securities is exempt from qualification by section 25100, 25102 or 25105 of the California Corporations Code. 
+            The sale of the securities which are the subject of this <Agreement> has not been qualified with the Commissioner of Business Oversight of the State of California and the issuance of the securities or the payment or receipt of any part of the consideration therefor prior to the qualification is unlawful, unless the sale of securities is exempt from qualification by section 25100, 25102 or 25105 of the California Corporations Code. 
             The rights of all parties to this <Agreement> are expressly conditioned upon the qualification being obtained, unless the sale is so exempt.
 
     \\ No schedules.
