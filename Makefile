@@ -1,6 +1,6 @@
 CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
-TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Option-Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Country-Addendum Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
@@ -19,7 +19,7 @@ Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 Option-Agreement.docx: Option-Agreement.cform $(CF)
 	$(CF) render -f docx -t "Stock Option Agreement" -n outline $< > $@
 
-Option-Country-Addendum.docx: Option-Country-Addendum.cform $(CF)
+Country-Addendum.docx: Country-Addendum.cform $(CF)
 	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
 
 Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-Agreement.json $(CF)
@@ -48,9 +48,6 @@ Early-Exercise-Option-Notice.docx: Early-Exercise-Option-Notice.cform Early-Exer
 
 Early-Exercise-Option-Agreement.docx: Early-Exercise-Option-Agreement.cform $(CF)
 	$(CF) render -f docx -t "Stock Option Agreement" -n outline $< > $@
-
-Early-Exercise-Option-Country-Addendum.docx: Early-Exercise-Option-Country-Addendum.cform $(CF)
-	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
 
 Early-Exercise-Option-Exercise-Agreement.docx: Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json $(CF)
 	$(CF) render -f docx -t "Exercise Agreement" -n outline -s Early-Exercise-Option-Exercise-Agreement.json $< > $@
