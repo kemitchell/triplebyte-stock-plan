@@ -263,14 +263,13 @@
         \ Section 83(b) Election \
 
             \\
-
-            <Recipient> understands that Section 83(a) of the Internal Revenue Code of 1986, as amended (the ""Code""), taxes as ordinary income for a Nonstatutory Stock Option and as alternative minimum taxable income for an Incentive Stock Option the difference between the amount paid for the <Shares> and the Fair Market Value of the <Shares> as of the date any restrictions on the <Shares> lapse. 
+            <Recipient> understands that Section 83(a) of the Internal Revenue Code of 1986, as amended (the ""Code""), taxes as ordinary income for a <Nonstatutory Stock Option> and as alternative minimum taxable income for an <Incentive Stock Option> the difference between the amount paid for the <Shares> and the <Fair Market Value> of the <Shares> as of the date any restrictions on the <Shares> lapse. 
 
             In this context, "restriction" means the right of the <Company> to buy back the <Shares> pursuant to the <Repurchase Option> set forth in {Repurchase Option}. 
 
             <Recipient> understands that <Recipient> may elect to be taxed at the time the <Shares> are purchased, rather than when and as the <Repurchase Option> expires, by filing an election under Section 83(b) (an ""83(b) Election"") of the <Code> with the Internal Revenue Service within 30 days from the date of purchase. 
 
-            Even if the Fair Market Value of the <Shares> at the time of the execution of this <Agreement> equals the amount paid for the <Shares>, the election must be made to avoid income and alternative minimum tax treatment under Section 83(a) in the future. 
+            Even if the <Fair Market Value> of the <Shares> at the time of the execution of this <Agreement> equals the amount paid for the <Shares>, the election must be made to avoid income and alternative minimum tax treatment under Section 83(a) in the future. 
 
             <Recipient> understands that failure to file such an election in a timely manner may result in adverse tax consequences for <Recipient>. 
 
@@ -287,16 +286,11 @@
 
             \\
             <Recipient> agrees that <Recipient> will execute and deliver to the <Company> with this executed <Agreement> a copy of the Acknowledgment and Statement of Decision Regarding Section 83(b) Election (the ""Acknowledgment"") attached hereto as {Acknowledgment and Statement of Decision Regarding Section 83(b) Election}. 
+
             <Recipient> further agrees that he or she will execute and submit with the <Acknowledgment> a copy of the <83(b) Election> attached hereto as {Election Under Section 83(b)} (for tax purposes in connection with the early exercise of an option) if <Recipient> has indicated in the <Acknowledgment> his or her decision to make such an election.
 
         \ Waiver of Statutory Information Rights \
-        <Recipient> acknowledges and understands that, but for the waiver made herein, <Recipient> would be entitled, upon written demand under oath stating the purpose thereof, to inspect for any proper purpose, and to make copies and extracts from, the <Company>'s stock ledger, a list of its stockholders, and its other books and records, and the books and records of subsidiaries of the <Company>, if any, under the circumstances and in the manner provided in Section 220 of the Delaware General Corporation Law (any and all such rights, and any and all such other rights of <Recipient> as may be provided for in Section 220, the ""Inspection Rights""). 
-
-        In light of the foregoing, until the first sale of Common Stock of the <Company> to the general public pursuant to a registration statement filed with and declared effective by the Securities and Exchange Commission under the Securities Act of 1933, as amended, <Recipient> hereby unconditionally and irrevocably waives the <Inspection Rights>, whether such <Inspection Rights> would be exercised or pursued directly or indirectly pursuant to Section 220 or otherwise, and covenants and agrees never to directly or indirectly commence, voluntarily aid in any way, prosecute, assign, transfer, or cause to be commenced any claim, action, cause of action, or other proceeding to pursue or exercise the <Inspection Rights>. 
-
-        The foregoing waiver applies to the <Inspection Rights> of <Recipient> in <Recipient>'s capacity as a stockholder and shall not affect any rights of a director, in his or her capacity as such, under Section 220. 
-
-        The foregoing waiver shall not apply to any contractual inspection rights of <Recipient> under any written agreement with the <Company>.
+        (( require shared/info-rights ))
 
         \ Miscellaneous \
 
