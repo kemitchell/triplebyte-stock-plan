@@ -29,9 +29,7 @@
 
                 \\
                 the terms and conditions that apply to the <Company>'s <Common Stock>, as set forth in the <Company>'s Bylaws, 
-                (( if Bylaws Transfer Restrictions begin ))
-                including (without limitation) certain transfer restrictions set forth in Section [Bylaws Transfer Restriction Section] of the <Company>'s Bylaws,
-                (( end ))
+                
                 as may be in effect at the time of any proposed transfer (the ""Bylaw Provisions""), and
 
                 \\
@@ -233,9 +231,7 @@
 
                 \!!
                 "The transfer of the securities referenced herein is subject to certain transfer restrictions set forth in 
-                (( if Bylaws Transfer Restrictions begin ))
-                the company's bylaws (as amended from time to time) and 
-                (( end ))
+                
                 the company's stock plan, copies of which may be obtained upon written request to the company at its principal place of business. 
 
                 The company shall not register or otherwise recognize or give effect to any purported transfer of securities that does not comply with such transfer restrictions."

@@ -23,7 +23,7 @@ Country-Addendum.docx: Country-Addendum.cform $(CF)
 	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
 
 Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-Agreement.json $(CF)
-	$(CF) render -f docx -t "Exercise Agreement" -n outline -s Option-Exercise-Agreement.json $< > $@
+	$(CF) render -f docx -t "Exercise Agreement" -n ase -s Option-Exercise-Agreement.json $< > $@
 
 Option-Notice.cform: Option-Notice.cftemplate $(CFT)
 	$(CFT) Option-Notice.cftemplate > $@
