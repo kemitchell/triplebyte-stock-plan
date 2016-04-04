@@ -203,49 +203,7 @@
         \ Voting Provisions \
         As a condition precedent to entering into this <Agreement>, at the request of the <Company>, <Recipient> shall become a party to any voting agreement to which the <Company> is a party at the time of <Recipient>'s execution and delivery of this <Agreement>, as such voting agreement may be thereafter amended from time to time (the ""Voting Agreement""), by executing an adoption agreement or counterpart signature page agreeing to be bound by and subject to the terms of the <Voting Agreement> and to vote the <Shares> in the capacity of a "Common Holder" and a "Stockholder," as such terms may be defined in the <Voting Agreement>.
 
-        \ Restrictive Legends and Stop-Transfer Orders \
-
-            \ Legends \
-            Any stock certificate or, in the case of uncertificated securities, any notice of issuance, for the <Shares> shall bear the following legends (as well as any legends required by the <Company> or applicable state and federal corporate and securities laws):
-
-                \!!
-                "The securities referenced herein have not been registered under the Securities Act of 1933, and have been acquired for investment and not with a view to, or in connection with, the sale or distribution thereof. 
-
-                No such sale or distribution may be effected without an effective registration statement related thereto or an opinion of counsel in a form satisfactory to the company that such registration is not required under the Securities Act of 1933."
-
-                \ Transfer Restriction Legend !!
-                "The securities referenced herein may be transferred only in accordance with the terms of an agreement between the company and the stockholder, a copy of which is on file with and may be obtained from the secretary of the company at no charge."
-
-                \!!
-                "The transfer of the securities referenced herein is subject to certain transfer restrictions set forth in 
-                (( if Bylaws Transfer Restrictions begin ))
-                the company's bylaws (as amended from time to time) and 
-                (( end ))
-                the company's stock plan, copies of which may be obtained upon written request to the company at its principal place of business. 
-
-                The company shall not register or otherwise recognize or give effect to any purported transfer of securities that does not comply with such transfer restrictions."
-
-                \\
-                Any legend required by the <Voting Agreement>, as applicable.
-
-            \ Stop-Transfer Notices \
-            <Recipient> agrees that, in order to ensure compliance with the restrictions referred to herein, the <Company> may issue appropriate "stop transfer" instructions to its transfer agent, if any, and that, if the <Company> transfers its own securities, it may make appropriate notations to the same effect in its own records.
-
-            \ Refusal to Transfer \
-            The <Company> shall not be required
-
-                \\
-                to transfer on its books any <Shares> that have been sold or otherwise transferred in violation of any of the provisions of this <Agreement> or the <Plan> or
-
-                \\
-                to treat as owner of such <Shares> or to accord the right to vote or pay dividends to any purchaser or other transferee to whom such <Shares> shall have been so transferred.
-
-            \ Required Notices \
-            <Recipient> acknowledges that the <Shares> are issued and shall be held subject to all the provisions of {Restrictive Legends and Stop-Transfer Orders}, the Certificate of Incorporation and the Bylaws of the <Company> and any amendments thereto, copies of which are on file at the principal office of the <Company>. 
-
-            A statement of all of the rights, preferences, privileges and restrictions granted to or imposed upon the respective classes and/or series of shares of stock of the <Company> and upon the holders thereof may be obtained by any stockholder upon request and without charge, at the principal office of the <Company>, and the <Company> will furnish any stockholder, upon request and without charge, a copy of such statement. 
-
-            <Recipient> acknowledges that the provisions of {Restrictive Legends and Stop-Transfer Orders} shall constitute the notices required by Sections 151(f) and 202(a) of the Delaware General Corporation Law and the <Recipient> hereby expressly waives the requirement of Section 151(f) of the Delaware General Corporation Law that it receive the written notice provided for in Sections 151(f) and 202(a) of the Delaware General Corporation Law within a reasonable time after the issuance of the <Shares>.
+    (( require shared/legends ))
 
         \ No Employment Rights \
         Nothing in this <Agreement> shall affect in any manner whatsoever the right or power of the <Company>, or a parent, subsidiary or affiliate of the <Company>, to terminate <Recipient>'s employment or consulting relationship, for any reason, with or without cause.
