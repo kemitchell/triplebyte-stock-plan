@@ -1,6 +1,6 @@
 CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
-TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment California-Addendum
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment RSPA California-Addendum
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
@@ -79,6 +79,12 @@ Board-Consent.docx: Board-Consent.cform Board-Consent.json $(CF)
 
 Early-Exercise.options:
 	echo '{"Early Exercise": true }' > $@
+
+RSPA.docx: RSPA.cform RSPA.json $(CF)
+	$(CF) render -f docx -t "Restricted Stock Purchase Agreement" -n outline -s RSPA.json < $< > $@
+
+RSPA.json:
+	echo "{}" > $@
 
 %.cform: %.cftemplate $(CFT)
 	$(CFT) $< > $@
