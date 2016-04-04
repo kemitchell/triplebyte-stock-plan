@@ -127,7 +127,7 @@
                     \\
                     approved by the <Company> to be sold or transferred,
 
-                then the <Holder> may sell or otherwise transfer any such <Shares> to the applicable <Proposed Transferee> at the <Transfer Purchase Price> or at a higher price, provided that such sale or other transfer is consummated within 120 days after the date of the <Notice>; provided that any such sale or other transfer is also effected in accordance with the <Bylaw Provisions>, the transfer restrictions set forth in the <Plan> and any <Applicable Laws> and the <Proposed Transferee> agrees in writing that the <Plan>, the <Bylaw Provisions>, and the provisions of the <Option Agreement> and this <Agreement>, including {Limitations on Transfer} and the waiver of statutory information rights in {Waiver of Statutory Information Rights}, shall continue to apply to the <Shares> in the hands of such <Proposed Transferee>. 
+                then the <Holder> may sell or otherwise transfer any such <Shares> to the applicable <Proposed Transferee> at the <Transfer Purchase Price> or at a higher price, provided that such sale or other transfer is consummated within 120 days after the date of the <Notice>; provided that any such sale or other transfer is also effected in accordance with the <Bylaw Provisions>, the transfer restrictions set forth in the <Plan> and any <Applicable Laws> and the <Proposed Transferee> agrees in writing that the <Plan>, the <Bylaw Provisions>, and the provisions of this <Agreement>, including {Limitations on Transfer} and the waiver of statutory information rights in {Waiver of Statutory Information Rights}, shall continue to apply to the <Shares> in the hands of such <Proposed Transferee>. 
 
                 The <Company>, in consultation with its legal counsel, may require the <Holder> to provide an opinion of counsel evidencing compliance with <Applicable Laws>. 
 
@@ -170,8 +170,7 @@
 
     (( require shared/investment-reps ))
 
-        \ Voting Provisions \
-        As a condition precedent to entering into this <Agreement>, at the request of the <Company>, <Recipient> shall become a party to any voting agreement to which the <Company> is a party at the time of <Recipient>'s execution and delivery of this <Agreement>, as such voting agreement may be thereafter amended from time to time (the ""Voting Agreement""), by executing an adoption agreement or counterpart signature page agreeing to be bound by and subject to the terms of the <Voting Agreement> and to vote the <Shares> in the capacity of a "Common Holder" and a "Stockholder," as such terms may be defined in the <Voting Agreement>.
+    (( require shared/voting ))
 
     (( require shared/legends ))
 

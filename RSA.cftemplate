@@ -135,8 +135,7 @@
 
     (( require shared/investment-reps ))
 
-        \ Voting Provisions \
-        As a condition precedent to entering into this <Agreement>, at the request of the <Company>, <Recipient> shall become a party to any voting agreement to which the <Company> is a party at the time of <Recipient>'s execution and delivery of this <Agreement>, as such voting agreement may be thereafter amended from time to time (the ""Voting Agreement""), by executing an adoption agreement or counterpart signature page agreeing to be bound by and subject to the terms of the <Voting Agreement> and to vote the <Shares> in the capacity of a "Common Holder" and a "Stockholder," as such terms may be defined in the <Voting Agreement>.
+    (( require shared/voting ))
 
         \ Restrictive Legends and Stop-Transfer Orders \
 
