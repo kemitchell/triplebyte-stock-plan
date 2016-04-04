@@ -1,12 +1,18 @@
     \\
-    This Restricted Stock Agreement (this ""Agreement"") is made as of [Date] by and between [Company Name], a Delaware corporation (the ""Company""), and [Participant Name] (""Participant"") pursuant to the Company's [Stock Plan Name] (the ""Plan""). 
+    This Restricted Stock Agreement (this ""Agreement"") is made as of [Date] by and between [Company Name], a Delaware corporation (the ""Company""), and [Participant Name] (""Participant"") pursuant to the <Company>'s [Stock Plan Name] (the ""Plan""). 
 
     To the extent any capitalized terms used in this <Agreement> are not defined, they shall have the meaning ascribed to them in the <Plan>.
 
         \ Grant of Restricted Stock \
-        Subject to the terms and conditions of this <Agreement>, the <Company> hereby grants to <Participant> [Shares] shares of the Company's Common Stock (the ""Shares"") as consideration of services rendered by <Participant> to the Company.   The <Company> will deliver to <Participant> a stock certificate or, in the case of uncertificated securities, upon request, a notice of issuance for the <Shares> as soon as practicable following such date.  As used elsewhere herein, the term ""Shares"" refers to all of the <Shares> granted hereunder and all securities received in connection with the <Shares> pursuant to stock dividends or splits, all securities received in replacement of the <Shares> in a recapitalization, merger, reorganization, exchange or the like, and all new, substituted or additional securities or other property to which <Participant> is entitled by reason of <Participant>'s ownership of the Shares.  <Shares> that have not yet vested as of a given time pursuant to the Vesting Schedule below are referred to herein as ""Unvested Shares"". 
+        Subject to the terms and conditions of this <Agreement>, the <Company> hereby grants to <Participant> [Shares] shares of the <Company>'s <Common Stock> (the ""Shares"") as consideration of services rendered by <Participant> to the <Company>.  
 
-        By <Participant>'s signature and the signature of the Company's representative below, <Participant> and the <Company> agree that this grant of <Shares> is governed by the terms and conditions of this <Agreement> and the [Company Name] [Stock Plan Name] which is attached to and made a part of this <Agreement>.
+        The <Company> will deliver to <Participant> a stock certificate or, in the case of uncertificated securities, upon request, a notice of issuance for the <Shares> as soon as practicable following such date. 
+
+        As used elsewhere herein, the term <Shares> refers to all of the <Shares> granted hereunder and all securities received in connection with the <Shares> pursuant to stock dividends or splits, all securities received in replacement of the <Shares> in a recapitalization, merger, reorganization, exchange or the like, and all new, substituted or additional securities or other property to which <Participant> is entitled by reason of <Participant>'s ownership of the <Shares>. 
+
+        <Shares> that have not yet vested as of a given time pursuant to the <Vesting Schedule> below are referred to herein as ""Unvested Shares"". 
+
+        By <Participant>'s signature and the signature of the <Company>'s representative below, <Participant> and the <Company> agree that this grant of <Shares> is governed by the terms and conditions of this <Agreement> and the [Company Name] [Stock Plan Name] which is attached to and made a part of this <Agreement>.
 
         \ Vesting Schedule \
         [Cliff Shares] of the total <Shares> shall vest on [Cliff Date], and an additional [Vesting Increment] of the total <Shares> shall vest on the same day of each month thereafter (and if there is no corresponding day, the last day of the month), subject to <Participant>'s <Continuous Service Status> through such vesting date. 
@@ -36,7 +42,7 @@
             After any <Shares> are no longer subject to forfeiture, <Participant> shall not assign, encumber or dispose of any interest in the <Shares> except to the extent permitted by, and in compliance with, Section 12 of the <Plan>, the <Bylaw Provisions>, <Applicable Laws>, and the provisions below.
 
             \ Forfeiture Upon Termination of Participant's Continuous Service Status \
-            Notwithstanding any contrary provision of this <Agreement>, in the event of any voluntary or involuntary termination of <Participant>'s Continuous Service Status prior to vesting pursuant to the Vesting Schedule set forth in {Vesting Schedule} for any reason (including death or Disability), with or without cause, the then <Unvested Shares> will thereupon be forfeited and automatically transferred to and reacquired by the <Company> at no cost to the <Company> upon the date of such termination and <Participant> will have no further rights or interests with respect to such <Unvested Shares>.
+            Notwithstanding any contrary provision of this <Agreement>, in the event of any voluntary or involuntary termination of <Participant>'s <Continuous Service Status> prior to vesting pursuant to the <Vesting Schedule> set forth in {Vesting Schedule} for any reason (including death or Disability), with or without cause, the then <Unvested Shares> will thereupon be forfeited and automatically transferred to and reacquired by the <Company> at no cost to the <Company> upon the date of such termination and <Participant> will have no further rights or interests with respect to such <Unvested Shares>.
 
             \ Transfer Restrictions; Right of First Refusal \
             Before any <Shares> held by <Participant> or any transferee of <Participant> (either being sometimes referred to herein as the ""Holder"") may be sold or otherwise transferred (including transfer by gift or operation of law), the <Company> shall first, to the extent the <Company>'s approval is required by the <Plan> or any applicable <Bylaw Provisions>, have the right to approve such sale or transfer, in full or in part, and shall then have the right to purchase all or any part of the <Shares> proposed to be sold or transferred, in each case, in its sole and absolute discretion (the ""Right of First Refusal""). 
@@ -135,7 +141,7 @@
 
         The escrow holder may rely upon any letter, notice or other document executed by any signature purported to be genuine and may resign at any time. 
 
-        <Participant> agrees that if the Secretary of the Company, or the Secretary's designee, resigns as escrow holder for any or no reason, the Board of Directors of the <Company> shall have the power to appoint a successor to serve as escrow holder pursuant to the terms of this <Agreement>.
+        <Participant> agrees that if the Secretary of the <Company>, or the Secretary's designee, resigns as escrow holder for any or no reason, the Board of Directors of the <Company> shall have the power to appoint a successor to serve as escrow holder pursuant to the terms of this <Agreement>.
 
         \ Investment and Taxation Representations \
         In connection with the receipt of the <Shares>, <Participant> represents to the <Company> the following:
@@ -171,7 +177,7 @@
             <Participant> also agrees to notify the <Company> if <Participant> becomes subject to such disqualifications after the date hereof.
 
             \\
-            <Participant> understands that <Participant> may suffer adverse tax consequences as a result of <Participant>'s receipt or disposition of the Shares. 
+            <Participant> understands that <Participant> may suffer adverse tax consequences as a result of <Participant>'s receipt or disposition of the <Shares>. 
 
             <Participant> represents that <Participant> has consulted any tax consultants <Participant> deems advisable in connection with the receipt or disposition of the <Shares> and that <Participant> is not relying on the <Company> for any tax advice.
 
@@ -219,7 +225,7 @@
             When all of the following events have occurred, the <Shares> then held by <Participant> will no longer be subject to the legend specified in {Transfer Restriction Legend} and the <Company> will remove any stop-transfer notices associated with the transfer restrictions imposed by this <Agreement>:
 
                 \\
-                the termination of the Right of First Refusal;
+                the termination of the <Right of First Refusal>;
 
                 \\
                 the <Shares> are no longer subject to forfeiture;
@@ -230,12 +236,12 @@
                 \\
                 the termination of the waiver of statutory information rights set forth in {Waiver of Statutory Information Rights}.
 
-            After such time and upon <Participant>'s request, a new stock certificate or, in the case of uncertificated securities, notice of issuance, for the remaining Shares, shall be issued without the legend specified in {Transfer Restriction Legend} and delivered to <Participant>.
+            After such time and upon <Participant>'s request, a new stock certificate or, in the case of uncertificated securities, notice of issuance, for the remaining <Shares>, shall be issued without the legend specified in {Transfer Restriction Legend} and delivered to <Participant>.
 
             \ Required Notices \
-            <Participant> acknowledges that the <Shares> are issued and shall be held subject to all the provisions of this {Required Notices}, the Certificate of Incorporation and the Bylaws of the <Company> and any amendments thereto, copies of which are on file at the principal office of the Company.  A statement of all of the rights, preferences, privileges and restrictions granted to or imposed upon the respective classes and/or series of shares of stock of the <Company> and upon the holders thereof may be obtained by any stockholder upon request and without charge, at the principal office of the Company, and the <Company> will furnish any stockholder, upon request and without charge, a copy of such statement. 
+            <Participant> acknowledges that the <Shares> are issued and shall be held subject to all the provisions of this {Required Notices}, the Certificate of Incorporation and the Bylaws of the <Company> and any amendments thereto, copies of which are on file at the principal office of the <Company>.  A statement of all of the rights, preferences, privileges and restrictions granted to or imposed upon the respective classes and/or series of shares of stock of the <Company> and upon the holders thereof may be obtained by any stockholder upon request and without charge, at the principal office of the <Company>, and the <Company> will furnish any stockholder, upon request and without charge, a copy of such statement. 
 
-            <Participant> acknowledges that the provisions of {Required Notices} shall constitute the notices required by Sections 151(f) and 202(a) of the Delaware General Corporation Law and the <Participant> hereby expressly waives the requirement of Section 151(f) of the Delaware General Corporation Law that it receive the written notice provided for in Sections 151(f) and 202(a) of the Delaware General Corporation Law within a reasonable time after the issuance of the Shares.
+            <Participant> acknowledges that the provisions of {Required Notices} shall constitute the notices required by Sections 151(f) and 202(a) of the Delaware General Corporation Law and the <Participant> hereby expressly waives the requirement of Section 151(f) of the Delaware General Corporation Law that it receive the written notice provided for in Sections 151(f) and 202(a) of the Delaware General Corporation Law within a reasonable time after the issuance of the <Shares>.
 
         \ No Employment Rights \
         Nothing in this <Agreement> shall affect in any manner whatsoever the right or power of the <Company>, or a parent, subsidiary or affiliate of the <Company>, to terminate <Participant>'s employment or consulting relationship, for any reason, with or without cause.
@@ -266,7 +272,7 @@
             <Participant> agrees that <Participant> will execute and deliver to the <Company> with this executed <Agreement> a copy of the Acknowledgment and Statement of Decision Regarding Section 83(b) Election (the ""Acknowledgment""), attached hereto as {Acknowledgment and Statement of Decision Regarding Section 83(b) Election} and, if <Participant> decides to make an <83(b) Election>, a copy of the 83(b) Election, attached hereto as {Election Under Section 83(b)}.
 
         \ Waiver of Statutory Information Rights \
-        <Participant> acknowledges and understands that, but for the waiver made herein, <Participant> would be entitled, upon written demand under oath stating the purpose thereof, to inspect for any proper purpose, and to make copies and extracts from, the Company's stock ledger, a list of its stockholders, and its other books and records, and the books and records of subsidiaries of the Company, if any, under the circumstances and in the manner provided in Section 220 of the Delaware General Corporation Law (any and all such rights, and any and all such other rights of <Participant> as may be provided for in Section 220, the ""Inspection Rights""). 
+        <Participant> acknowledges and understands that, but for the waiver made herein, <Participant> would be entitled, upon written demand under oath stating the purpose thereof, to inspect for any proper purpose, and to make copies and extracts from, the <Company>'s stock ledger, a list of its stockholders, and its other books and records, and the books and records of subsidiaries of the <Company>, if any, under the circumstances and in the manner provided in Section 220 of the Delaware General Corporation Law (any and all such rights, and any and all such other rights of <Participant> as may be provided for in Section 220, the ""Inspection Rights""). 
 
         In light of the foregoing, until the first sale of <Common Stock> of the <Company> to the general public pursuant to a registration statement filed with and declared effective by the Securities and Exchange Commission under the Securities Act of 1933, as amended, <Participant> hereby unconditionally and irrevocably waives the <Inspection Rights>, whether such <Inspection Rights> would be exercised or pursued directly or indirectly pursuant to Section 220 or otherwise, and covenants and agrees never to directly or indirectly commence, voluntarily aid in any way, prosecute, assign, transfer, or cause to be commenced any claim, action, cause of action, or other proceeding to pursue or exercise the <Inspection Rights>. 
 
