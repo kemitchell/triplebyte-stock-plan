@@ -2,6 +2,8 @@ CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
 TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment RSPA RSA
 
+.INTERMEDIATE: $(TARGETS:=.cform)
+
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
 Stock-Plan.docx: Stock-Plan.cform $(CF)
