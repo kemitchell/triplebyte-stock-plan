@@ -474,47 +474,52 @@
         \ Adjustments Upon Changes in Capitalization, Merger or Certain Other Transactions \
 
             \ Changes in Capitalization \
-            Subject to any action required under <Applicable Laws> by the holders of capital stock of the <Company>:
 
                 \\
-                the numbers and class of <Shares> or other stock or securities:
+                Subject to any action required under <Applicable Laws> by the holders of capital stock of the <Company>:
 
                     \\
-                    available for future <Awards> under {Stock Subject to the Plan}; and
+                    the numbers and class of <Shares> or other stock or securities:
+
+                        \\
+                        available for future <Awards> under {Stock Subject to the Plan}; and
+
+                        \\
+                        covered by each outstanding <Award>;
 
                     \\
-                    covered by each outstanding <Award>;
-
-                \\
-                the exercise price per <Share> of each such outstanding <Option>; and
-
-                \\
-                any repurchase price per <Share> applicable to <Shares> issued pursuant to any <Award>
-
-            shall be automatically proportionately adjusted in the event of a stock split, reverse stock split, stock dividend, combination, consolidation, reclassification of the <Shares> or subdivision of the <Shares>.
-
-            In the event of any increase or decrease in the number of issued <Shares> effected without receipt of consideration by the <Company>, a declaration of an extraordinary dividend with respect to the <Shares> payable in a form other than <Shares> in an amount that has a material effect on the <Fair Market Value>, a recapitalization (including a recapitalization through a large nonrecurring cash dividend), a rights offering, a reorganization, merger, a spin-off, split-up, change in corporate structure or a similar occurrence, the <Administrator> shall make appropriate adjustments, in its discretion, in one or more of:
-
-                \\
-                the numbers and class of <Shares> or other stock or securities:
+                    the exercise price per <Share> of each such outstanding <Option>; and
 
                     \\
-                    available for future <Awards> under {Stock Subject to the Plan}; and
+                    any repurchase price per <Share> applicable to <Shares> issued pursuant to any <Award>
+
+                shall be automatically proportionately adjusted in the event of a stock split, reverse stock split, stock dividend, combination, consolidation, reclassification of the <Shares> or subdivision of the <Shares>.
+
+                \\
+                In the event of any increase or decrease in the number of issued <Shares> effected without receipt of consideration by the <Company>, a declaration of an extraordinary dividend with respect to the <Shares> payable in a form other than <Shares> in an amount that has a material effect on the <Fair Market Value>, a recapitalization (including a recapitalization through a large nonrecurring cash dividend), a rights offering, a reorganization, merger, a spin-off, split-up, change in corporate structure or a similar occurrence, the <Administrator> shall make appropriate adjustments, in its discretion, in one or more of:
 
                     \\
-                    covered by each outstanding <Award>;
+                    the numbers and class of <Shares> or other stock or securities:
+
+                        \\
+                        available for future <Awards> under {Stock Subject to the Plan}; and
+
+                        \\
+                        covered by each outstanding <Award>;
+
+                    \\
+                    the exercise price per <Share> of each outstanding <Option>; and
+
+                    \\
+                    any repurchase price per <Share> applicable to <Shares> issued pursuant to any <Award>
+
+                and any such adjustment by the <Administrator> shall be made in the <Administrator>'s sole and absolute discretion and shall be final, binding and conclusive.
 
                 \\
-                the exercise price per <Share> of each outstanding <Option>; and
+                Except as expressly provided herein, no issuance by the <Company> of shares of stock of any class, or securities convertible into shares of stock of any class, shall affect, and no adjustment by reason thereof shall be made with respect to, the number or price of <Shares> subject to an <Award>.
 
                 \\
-                any repurchase price per <Share> applicable to <Shares> issued pursuant to any <Award>
-
-            and any such adjustment by the <Administrator> shall be made in the <Administrator>'s sole and absolute discretion and shall be final, binding and conclusive.
-
-            Except as expressly provided herein, no issuance by the <Company> of shares of stock of any class, or securities convertible into shares of stock of any class, shall affect, and no adjustment by reason thereof shall be made with respect to, the number or price of <Shares> subject to an <Award>.
-
-            If, by reason of a transaction described in {Changes in Capitalization} or an adjustment pursuant to {Changes in Capitalization}, a <Participant>'s <Award> agreement or agreement related to any <Optioned Stock> or <Restricted Stock> covers additional or different shares of stock or securities, then such additional or different shares, and the <Award> agreement or agreement related to the <Optioned Stock> or <Restricted Stock> in respect thereof, shall be subject to all of the terms, conditions and restrictions which were applicable to the <Award>, <Optioned Stock> and <Restricted Stock> prior to such adjustment.
+                If, by reason of a transaction described in {Changes in Capitalization} or an adjustment pursuant to {Changes in Capitalization}, a <Participant>'s <Award> agreement or agreement related to any <Optioned Stock> or <Restricted Stock> covers additional or different shares of stock or securities, then such additional or different shares, and the <Award> agreement or agreement related to the <Optioned Stock> or <Restricted Stock> in respect thereof, shall be subject to all of the terms, conditions and restrictions which were applicable to the <Award>, <Optioned Stock> and <Restricted Stock> prior to such adjustment.
 
             \ Dissolution or Liquidation \
             In the event of the dissolution or liquidation of the <Company>, each <Award> will terminate immediately prior to the consummation of such action, unless otherwise determined by the <Administrator>.
