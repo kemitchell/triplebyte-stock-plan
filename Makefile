@@ -5,7 +5,7 @@ TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
 Stock-Plan.docx: Stock-Plan.cform $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Year] Stock Plan" -n pae > $@
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Stock Plan Name]" -n pae > $@
 
 Stockholder-Consent.docx: Stockholder-Consent.cform Stockholder-Consent.json $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "Action by Written Consent of the Stockholders of [Company Name]" -n rse -s Stockholder-Consent.json > $@
