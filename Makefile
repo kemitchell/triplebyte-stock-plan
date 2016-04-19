@@ -78,3 +78,9 @@ Early-Exercise.options:
 
 $(CF) $(CFT):
 	npm i
+
+.PHONY: clean
+
+clean:
+	rm -rf $(TARGETS:=.docx)
+	rm -rf $(TARGETS:=.pdf)
