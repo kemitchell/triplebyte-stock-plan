@@ -24,8 +24,8 @@ Term-Sheet.docx: Term-Sheet.cform $(CF)
 Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 	$(CF) render -f docx -t "Notice of Stock Option Grant" -s Option-Notice.json -n outline $< > $@
 
-Option-Agreement.docx: Option-Agreement.cform $(CF)
-	$(CF) render -f docx -t "Stock Option Agreement" -n ase $< > $@
+Option-Agreement.docx: Option-Agreement.cform no-pages.json $(CF)
+	$(CF) render -f docx -t "Stock Option Agreement" -s no-pages.json -n ase $< > $@
 
 Country-Addendum.docx: Country-Addendum.cform $(CF)
 	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
@@ -56,8 +56,8 @@ Early-Exercise-%.cform: %.cform
 Early-Exercise-Option-Notice.docx: Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json $(CF)
 	$(CF) render -f docx -t "Notice of Stock Option Grant" -s Early-Exercise-Option-Notice.json -n outline $< > $@
 
-Early-Exercise-Option-Agreement.docx: Early-Exercise-Option-Agreement.cform $(CF)
-	$(CF) render -f docx -t "Stock Option Agreement" -n outline $< > $@
+Early-Exercise-Option-Agreement.docx: Early-Exercise-Option-Agreement.cform no-pages.json $(CF)
+	$(CF) render -f docx -t "Stock Option Agreement" -n outline -s no-pages.json $< > $@
 
 Early-Exercise-Option-Exercise-Agreement.docx: Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json $(CF)
 	$(CF) render -f docx -t "Exercise Agreement" -n outline -s Early-Exercise-Option-Exercise-Agreement.json $< > $@
