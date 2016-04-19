@@ -25,7 +25,7 @@ Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 	$(CF) render -f docx -t "Notice of Stock Option Grant" -s Option-Notice.json -n outline $< > $@
 
 Option-Agreement.docx: Option-Agreement.cform $(CF)
-	$(CF) render -f docx -t "Stock Option Agreement" -n outline $< > $@
+	$(CF) render -f docx -t "Stock Option Agreement" -n ase $< > $@
 
 Country-Addendum.docx: Country-Addendum.cform $(CF)
 	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
