@@ -1,11 +1,14 @@
 CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
-TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment California-Addendum
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
 Stock-Plan.docx: Stock-Plan.cform $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Stock Plan Name]" -n pae > $@
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Stock Plan Name]" -n outline > $@
+
+California-Addendum.docx: California-Addendum.cform $(CF)
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "California Addendum" -n outline > $@
 
 Stockholder-Consent.docx: Stockholder-Consent.cform Stockholder-Consent.json $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "Action by Written Consent of the Stockholders of [Company Name]" -n rse -s Stockholder-Consent.json > $@
