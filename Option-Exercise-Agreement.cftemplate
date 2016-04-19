@@ -146,14 +146,14 @@ To the extent any capitalized terms used in this <Agreement> are not defined, th
         \ Legends \
         Any stock certificate or, in the case of uncertificated securities, any notice of issuance, for the <Shares> shall bear the following legends (as well as any legends required by the <Company> or applicable state and federal corporate and securities laws):
 
-            \!!
+            \ Unregistered Securities Legend !!
             "The securities referenced herein have not been registered under the Securities Act of 1933, and have been acquired for investment and not with a view to, or in connection with, the sale or distribution thereof. 
             No such sale or distribution may be effected without an effective registration statement related thereto or an opinion of counsel in a form satisfactory to the company that such registration is not required under the Securities Act of 1933."
 
             \ Transfer Restriction Legend !!
             "The securities referenced herein may be transferred only in accordance with the terms of an agreement between the company and the stockholder, a copy of which is on file with and may be obtained from the secretary of the company at no charge."
 
-            \!!
+            \ Stock Plan Transfer Restriction Legend !!
             "The transfer of the securities referenced herein is subject to certain transfer restrictions set forth in 
             (( if Bylaws Transfer Restrictions begin ))
             the company's bylaws (as amended from time to time) and 
