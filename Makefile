@@ -4,8 +4,13 @@ TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
-Stock-Plan.docx: Stock-Plan.cform $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Stock Plan Name]" -n outline > $@
+.INTERMEDIATE: no-pages.json
+
+no-pages.json:
+	echo '[]' > $@
+
+Stock-Plan.docx: Stock-Plan.cform no-pages.json $(CF)
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -s no-pages.json -t "[Company Name] [Stock Plan Name]" -n outline > $@
 
 California-Addendum.docx: California-Addendum.cform $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "California Addendum" -n outline > $@
