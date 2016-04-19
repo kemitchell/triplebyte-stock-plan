@@ -27,13 +27,13 @@ You have been granted an option to purchase Common Stock of [Company Name], a De
     (( if Early Exercise begin ))
 
     The <Option> is immediately exercisable. 
-    So long as your <Continuous Service Status> does not terminate (and provided that no vesting shall occur following the <Termination Date> (as defined in Section 5 of the <Stock Option Agreement>) unless otherwise determined by the <Company> in its sole discretion), the <Shares> underlying this <Option> shall vest in accordance with the following schedule:  [Cliff Percentage] of the <Total Number of Shares> shall vest on the [Cliff Anniversary] anniversary of the <Vesting Commencement Date> and [Vesting Increment] of the <Total Number of Shares> shall vest on the corresponding day of each month thereafter (and if there is no corresponding day, the last day of the month).
+    So long as your <Continuous Service Status> does not terminate (and provided that no vesting shall occur following the <Termination Date> (as defined in the <Stock Option Agreement>) unless otherwise determined by the <Company> in its sole discretion), the <Shares> underlying this <Option> shall vest in accordance with the following schedule:  [Cliff Percentage] of the <Total Number of Shares> shall vest on the [Cliff Anniversary] anniversary of the <Vesting Commencement Date> and [Vesting Increment] of the <Total Number of Shares> shall vest on the corresponding day of each month thereafter (and if there is no corresponding day, the last day of the month).
 
     (( end ))
 
     (( unless Early Exercise begin ))
 
-    So long as your <Continuous Service Status> does not terminate (and provided that no vesting shall occur following the <Termination Date> (as defined in Section 5 of the <Stock Option Agreement>) unless otherwise determined by the <Company> in its sole discretion), the <Shares> underlying this <Option> shall vest and become exercisable in accordance with the following schedule: [Cliff Percentage] of the <Total Number of Shares> shall vest and become exercisable on the [Cliff Anniversary] anniversary of the <Vesting Commencement Date> and [Vesting Increment] of the <Total Number of Shares> shall vest and become exercisable on the corresponding day of each month thereafter (and if there is no corresponding day, the last day of the month).
+    So long as your <Continuous Service Status> does not terminate (and provided that no vesting shall occur following the <Termination Date> (as defined in the <Stock Option Agreement>) unless otherwise determined by the <Company> in its sole discretion), the <Shares> underlying this <Option> shall vest and become exercisable in accordance with the following schedule: [Cliff Percentage] of the <Total Number of Shares> shall vest and become exercisable on the [Cliff Anniversary] anniversary of the <Vesting Commencement Date> and [Vesting Increment] of the <Total Number of Shares> shall vest and become exercisable on the corresponding day of each month thereafter (and if there is no corresponding day, the last day of the month).
 
     (( end ))
 
@@ -51,14 +51,14 @@ You have been granted an option to purchase Common Stock of [Company Name], a De
 
     (( unless Early Exercise begin ))
 
-    You may exercise this Option for 3 years after the Termination Date except as set out in Section 5 of the <Stock Option Agreement> (but in no event later than the Expiration Date), provided that the Option may terminate earlier as provided or permitted by the [Company Name] [Stock Plan Name] (the ""Plan""), including, without limitation, in connection with a dissolution or liquidation of the <Company> or a Corporate Transaction (as defined in the Plan). 
+    You may exercise this Option for 3 years after the Termination Date except as set out in the "Termination of Relationship" section of the <Stock Option Agreement> (but in no event later than the Expiration Date), provided that the Option may terminate earlier as provided or permitted by the [Company Name] [Stock Plan Name] (the ""Plan""), including, without limitation, in connection with a dissolution or liquidation of the <Company> or a Corporate Transaction (as defined in the Plan). 
     You are responsible for keeping track of these exercise periods following the Termination Date. 
     The <Company> will not provide further notice of such periods.
 
     (( end ))
 
     \ Transferability \
-    You may not transfer this Option except as set forth in Section 6 of the <Stock Option Agreement> (subject to compliance with Applicable Laws). 
+    You may not transfer this Option except as set forth in the "Non-Transferability of Option" section of the <Stock Option Agreement> (subject to compliance with Applicable Laws). 
     You must obtain <Company> approval prior to any transfer of the Shares received upon exercise of this Option.
 
 By your signature and the signature of the <Company>'s representative or by otherwise accepting or exercising this Option, you and the <Company> agree that this Option is granted under and governed by the terms and conditions of this Notice and the Plan and <Stock Option Agreement> (which includes the Country-Specific Addendum, as applicable), both of which are attached to and made a part of this Notice.
