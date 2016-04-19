@@ -28,6 +28,8 @@ Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-
 Option-Notice.cform: Option-Notice.cftemplate $(CFT)
 	$(CFT) Option-Notice.cftemplate > $@
 
+.INTERMEDIATE: Early-Exercise.options Early-Exercise-Option-Agreement.cform Early-Exercise-Option-Agreement.options Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json Early-Exercise-Option-Exercise-Agreement.options Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json Early-Exercise.options
+
 Early-Exercise-Option-Notice.cform: Option-Notice.cftemplate Early-Exercise.options $(CFT)
 	$(CFT) Option-Notice.cftemplate Early-Exercise.options > $@
 
