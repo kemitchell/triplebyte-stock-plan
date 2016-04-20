@@ -12,14 +12,14 @@ no-pages.json:
 Stock-Plan.docx: Stock-Plan.cform no-pages.json $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -s no-pages.json -t "[Company Name] [Stock Plan Name]" -n outline > $@
 
-California-Addendum.docx: California-Addendum.cform $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "California Addendum" -n outline > $@
+California-Addendum.docx: California-Addendum.cform no-pages.json $(CF)
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -s no-pages.json -t "California Addendum" -n outline > $@
 
 Stockholder-Consent.docx: Stockholder-Consent.cform Stockholder-Consent.json $(CF)
 	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "Action by Written Consent of the Stockholders of [Company Name]" -n rse -s Stockholder-Consent.json > $@
 
-Term-Sheet.docx: Term-Sheet.cform $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render -f docx -t "[Company Name] [Year] Stock Plan Summary of Key Provisions" -n outline > $@
+Term-Sheet.docx: Term-Sheet.cform no-pages.json $(CF)
+	cat $< | sed 's/$$/ /' | $(CF) render -f docx -s no-pages.json -t "[Company Name] [Year] Stock Plan Summary of Key Provisions" -n outline > $@
 
 Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 	$(CF) render -f docx -t "Notice of Stock Option Grant" -s Option-Notice.json -n outline $< > $@
@@ -27,8 +27,8 @@ Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 Option-Agreement.docx: Option-Agreement.cform no-pages.json $(CF)
 	$(CF) render -f docx -t "Stock Option Agreement" -s no-pages.json -n ase $< > $@
 
-Country-Addendum.docx: Country-Addendum.cform $(CF)
-	$(CF) render -f docx -t "Country-Specific Addendum" -n outline $< > $@
+Country-Addendum.docx: Country-Addendum.cform no-pages.json $(CF)
+	$(CF) render -f docx -t "Country-Specific Addendum" -s no-pages.json -n outline $< > $@
 
 Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-Agreement.json $(CF)
 	$(CF) render -f docx -t "Exercise Agreement" -n ase -s Option-Exercise-Agreement.json $< > $@
