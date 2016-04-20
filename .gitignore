@@ -1,8 +1,4 @@
 *.docx
 *.pdf
 *.txt
-Board-Consent.cform
-Early-Exercise-Option-Notice-and-Purchase-Agreement.cform
-Option-Agreement.cform
-Option-Exercise-Agreement.cform
-Option-Notice.cform
+*.cform
