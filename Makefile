@@ -36,7 +36,7 @@ Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-
 Option-Notice.cform: Option-Notice.cftemplate $(CFT)
 	$(CFT) Option-Notice.cftemplate > $@
 
-.INTERMEDIATE: Early-Exercise.options Early-Exercise-Option-Agreement.cform Early-Exercise-Option-Agreement.options Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json Early-Exercise-Option-Exercise-Agreement.options Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json Early-Exercise.options RSA.cform RSPA.cform RSA.json RSPA.json
+.INTERMEDIATE: Early-Exercise.options Early-Exercise-Option-Agreement.cform Early-Exercise-Option-Agreement.options Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json Early-Exercise-Option-Exercise-Agreement.options Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json Early-Exercise.options RSA.cform RSPA.cform
 
 Early-Exercise-Option-Notice.cform: Option-Notice.cftemplate Early-Exercise.options $(CFT)
 	$(CFT) Option-Notice.cftemplate Early-Exercise.options > $@
@@ -83,14 +83,8 @@ Early-Exercise.options:
 RSPA.docx: RSPA.cform RSPA.json $(CF)
 	$(CF) render -f docx -t "Restricted Stock Purchase Agreement" -n outline -s RSPA.json < $< > $@
 
-RSPA.json:
-	echo "{}" > $@
-
 RSA.docx: RSA.cform RSA.json $(CF)
 	$(CF) render -f docx -t "Restricted Stock Agreement" -n outline -s RSA.json < $< > $@
-
-RSA.json:
-	echo "{}" > $@
 
 %.cform: %.cftemplate $(CFT)
 	$(CFT) $< > $@
