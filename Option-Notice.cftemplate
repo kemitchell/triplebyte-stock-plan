@@ -41,11 +41,16 @@ You have been granted an option to purchase Common Stock of [Company Name], a De
 
     (( if Early Exercise begin ))
 
-    You may exercise this <Option> until the earliest of
-        \\  the <Expiration Date> or
-        \\ an earlier date as required or permitted under the [Company Name] [Stock Plan Name] (the ""Plan""), including, without limitation, in connection with a dissolution or liquidation of the <Company> or a <Corporate Transaction> (as defined in the <Plan>). 
-        You are responsible for keeping track of this <Termination Period>. 
-        The <Company> will not provide further notice of this <Termination Period>.
+    You may exercise this <Option> until the earliest of:
+
+        \\
+        the <Expiration Date> or
+
+        \\
+        an earlier date as required or permitted under the [Company Name] [Stock Plan Name] (the ""Plan""), including, without limitation, in connection with a dissolution or liquidation of the <Company> or a <Corporate Transaction> (as defined in the <Plan>). 
+
+    You are responsible for keeping track of this <Termination Period>. 
+    The <Company> will not provide further notice of this <Termination Period>.
 
     (( end ))
 
