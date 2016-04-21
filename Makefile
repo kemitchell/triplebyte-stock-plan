@@ -1,6 +1,6 @@
 CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
-TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment California-Addendum RSPA RSA California-Addendum
+TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment California-Addendum RSPA RSA California-Addendum RSA-Stock-Power RSPA-Stock-Power
 DOCX=--format docx --indent-margins
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
@@ -37,7 +37,7 @@ Option-Exercise-Agreement.docx: Option-Exercise-Agreement.cform Option-Exercise-
 Option-Notice.cform: Option-Notice.cftemplate $(CFT)
 	$(CFT) Option-Notice.cftemplate > $@
 
-.INTERMEDIATE: Early-Exercise.options Early-Exercise-Option-Agreement.cform Early-Exercise-Option-Agreement.options Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json Early-Exercise-Option-Exercise-Agreement.options Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json Early-Exercise.options RSA.cform RSPA.cform
+.INTERMEDIATE: Early-Exercise.options Early-Exercise-Option-Agreement.cform Early-Exercise-Option-Agreement.options Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json Early-Exercise-Option-Exercise-Agreement.options Early-Exercise-Option-Notice.cform Early-Exercise-Option-Notice.json Early-Exercise.options RSA.cform RSPA.cform Early-Exercise-Stock-Power.options Early-Exercise-Stock-Power.cform RSPA-Stock-Power.options RSPA-Stock-Power.cform RSA-Stock-Power.options RSA-Stock-Power.cform
 
 Early-Exercise-Option-Notice.cform: Option-Notice.cftemplate Early-Exercise.options $(CFT)
 	$(CFT) Option-Notice.cftemplate Early-Exercise.options > $@
@@ -47,6 +47,12 @@ Option-Exercise-Agreement.cform: Option-Exercise-Agreement.cftemplate $(CFT)
 
 Early-Exercise-Option-Exercise-Agreement.cform: Option-Exercise-Agreement.cftemplate Early-Exercise.options $(CFT)
 	$(CFT) Option-Exercise-Agreement.cftemplate Early-Exercise.options > $@
+
+Early-Exercise-Stock-Power.options:
+	echo '{"EE":true}' > $@
+
+Early-Exercise-Stock-Power.cform: Stock-Power.cftemplate Early-Exercise-Stock-Power.options $(CFT)
+	$(CFT) Stock-Power.cftemplate Early-Exercise-Stock-Power.options > $@
 
 Early-Exercise-%.json: %.json
 	cp $< $@
@@ -66,8 +72,8 @@ Early-Exercise-Option-Exercise-Agreement.docx: Early-Exercise-Option-Exercise-Ag
 Early-Exercise-Option-Notice-and-Purchase-Agreement.docx: Early-Exercise-Option-Notice-and-Purchase-Agreement.cform Early-Exercise-Option-Notice-and-Purchase-Agreement.json $(CF)
 	$(CF) render $(DOCX) -t "Early Exercise Notice and Restricted Stock Purchase Agreement" -n ase -s Early-Exercise-Option-Notice-and-Purchase-Agreement.json $< > $@
 
-Early-Exercise-Stock-Power.docx: Early-Exercise-Stock-Power.cform Early-Exercise-Stock-Power.json $(CFT)
-	$(CF) render $(DOCX) -t "Stock Power" -n outline -s Early-Exercise-Stock-Power.json $< > $@
+Early-Exercise-Stock-Power.docx: Early-Exercise-Stock-Power.cform Stock-Power.json $(CFT)
+	$(CF) render $(DOCX) -t "Stock Power" -n outline -s Stock-Power.json $< > $@
 
 83b-Election.docx: 83b-Election.cform 83b-Election.json $(CF)
 	$(CF) render $(DOCX) -t "Election Under Section 83(b) of the Internal Revenue Code of 1986" -n outline -s 83b-Election.json < $< > $@
@@ -86,6 +92,24 @@ RSPA.docx: RSPA.cform RSPA.json $(CF)
 
 RSA.docx: RSA.cform RSA.json $(CF)
 	$(CF) render $(DOCX) -t "Restricted Stock Agreement" -n outline -s RSA.json < $< > $@
+
+RSA-Stock-Power.options:
+	echo '{"RSA": true }' > $@
+
+RSA-Stock-Power.cform: Stock-Power.cftemplate RSA-Stock-Power.options $(CFT)
+	$(CFT) Stock-Power.cftemplate RSA-Stock-Power.options > $@
+
+RSA-Stock-Power.docx: RSA-Stock-Power.cform Stock-Power.json $(CFT)
+	$(CF) render $(DOCX) -t "Stock Power" -n outline -s Stock-Power.json $< > $@
+
+RSPA-Stock-Power.options:
+	echo '{"RSPA": true }' > $@
+
+RSPA-Stock-Power.cform: Stock-Power.cftemplate RSPA-Stock-Power.options $(CFT)
+	$(CFT) Stock-Power.cftemplate RSPA-Stock-Power.options > $@
+
+RSPA-Stock-Power.docx: RSPA-Stock-Power.cform Stock-Power.json $(CFT)
+	$(CF) render $(DOCX) -t "Stock Power" -n outline -s Stock-Power.json $< > $@
 
 %.cform: %.cftemplate $(CFT)
 	$(CFT) $< > $@
