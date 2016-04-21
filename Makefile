@@ -79,7 +79,7 @@ Early-Exercise-Stock-Power.docx: Early-Exercise-Stock-Power.cform Stock-Power.js
 	$(CF) render $(DOCX) -t "Election Under Section 83(b) of the Internal Revenue Code of 1986" -n outline -s 83b-Election.json < $< > $@
 
 83b-Statement-Acknowledgment.docx: 83b-Statement-Acknowledgment.cform 83b-Statement-Acknowledgment.json $(CF)
-	$(CF) render $(DOCX) -t "Action by Unanimous Written Consent of the Board of Directors of [Company Name]" -n outline -s 83b-Statement-Acknowledgment.json < $< > $@
+	$(CF) render $(DOCX) -t "Acknowledgment and Statement of Decision Regarding Section 83(b) Election" -n outline -s 83b-Statement-Acknowledgment.json < $< > $@
 
 Board-Consent.docx: Board-Consent.cform Board-Consent.json $(CF)
 	$(CF) render $(DOCX) -t "Action by Unanimous Written Consent of the Board of Directors of [Company Name]" -n rse -s Board-Consent.json < $< > $@
