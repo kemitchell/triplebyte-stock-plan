@@ -58,7 +58,7 @@ Early-Exercise-Option-Notice.docx: Early-Exercise-Option-Notice.cform Early-Exer
 	$(CF) render $(DOCX) -t "Notice of Stock Option Grant" -s Early-Exercise-Option-Notice.json -n outline $< > $@
 
 Early-Exercise-Option-Agreement.docx: Early-Exercise-Option-Agreement.cform no-pages.json $(CF)
-	$(CF) render $(DOCX) -t "Stock Option Agreement" -n outline -s no-pages.json $< > $@
+	$(CF) render $(DOCX) -t "Stock Option Agreement" -n ase -s no-pages.json $< > $@
 
 Early-Exercise-Option-Exercise-Agreement.docx: Early-Exercise-Option-Exercise-Agreement.cform Early-Exercise-Option-Exercise-Agreement.json $(CF)
 	$(CF) render $(DOCX) -t "Exercise Agreement" -n outline -s Early-Exercise-Option-Exercise-Agreement.json $< > $@
