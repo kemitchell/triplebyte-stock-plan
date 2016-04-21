@@ -408,13 +408,26 @@
                 In no event may any <Option> be exercised after the expiration of the <Option> term as set forth in the <Option Agreement> (and subject to {Options}).
 
                 \ Termination other than Upon Disability or Death or for Cause \
-                In the event of termination of an <Optionee>'s <Continuous Service Status> other than under the circumstances set forth in {Disability of Optionee}, {Death of Optionee}, and {Termination for Cause}, such <Optionee> may exercise any outstanding <Option> at any time within 3 months following such termination to the extent the <Optionee> is vested in the <Optioned Stock>.
+                In the event of termination of an <Optionee>'s <Continuous Service Status> other than under the circumstances set forth in {Disability of Optionee}, {Death of Optionee}, and {Termination for Cause}, such <Optionee> may exercise any outstanding <Option> as follows:
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for at least [Tenure Months] successive thirty-calendar-day periods, then <Optionee> may exercise at any time before expiration of the <Option> term as set forth in the <Option Agreement>, to the extent the <Optionee> is vested in the <Optioned Stock>.
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for less than [Tenure Months] successive thirty-calendar-day periods, then <Optionee> may exercise at any time within 3 months following such termination to the extent the <Optionee> is vested in the <Optioned Stock>.
 
                 \ Disability of Optionee \
-                In the event of termination of an <Optionee>'s <Continuous Service Status> as a result of his or her <Disability>, such <Optionee> may exercise any outstanding <Option> at any time within 12 months following such termination to the extent the <Optionee> is vested in the <Optioned Stock>.
+                In the event of termination of an <Optionee>'s <Continuous Service Status> as a result of his or her <Disability>, such <Optionee> may exercise any outstanding <Option> as follows:
+
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for at least [Tenure Months] successive thirty-calendar-day periods, then <Optionee> may exercise at any time before expiration of the <Option> term as set forth in the <Option Agreement>, to the extent the <Optionee> is vested in the <Optioned Stock>.
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for less than [Tenure Months] successive thirty-calendar-day periods, then <Optionee> may exercise at any time within 12 months following such termination to the extent the <Optionee> is vested in the <Optioned Stock>.
 
                 \ Death of Optionee \
-                In the event of the death of an <Optionee> during the period of <Continuous Service Status> since the date of grant of any outstanding <Option>, or within 3 months following termination of the <Optionee>'s <Continuous Service Status>, the <Option> may be exercised by any beneficiaries designated in accordance with {Beneficiaries}, or if there are no such beneficiaries, by the <Optionee>'s estate, or by a person who acquired the right to exercise the <Option> by bequest or inheritance, at any time within 12 months following the date the <Optionee>'s <Continuous Service Status> terminated, but only to the extent the <Optionee> is vested in the <Optioned Stock>.
+                In the event of the death of an <Optionee> during the period of <Continuous Service Status> since the date of grant of any outstanding <Option>, or within 3 months following termination of the <Optionee>'s <Continuous Service Status>, the <Option> may be exercised by any beneficiaries designated in accordance with {Beneficiaries}, or if there are no such beneficiaries, by the <Optionee>'s estate, or by a person who acquired the right to exercise the <Option> by bequest or inheritance, as follows:
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for at least [Tenure Months] successive thirty-calendar-day periods, the <Option> may be exercised at any time before expiration of the <Option> term as set forth in the <Option Agreement>, to the extent the <Optionee> is vested in the <Optioned Stock>.
+
+                    \\ If <Optionee>'s <Continuous Service Status> continued uninterrupted for less than [Tenure Months] successive thirty-calendar-day periods, then the <Option> may be exercised at any time within 12 months following the date the <Optionee>'s <Continuous Service Status> terminated, but only to the extent the <Optionee> is vested in the <Optioned Stock>.
 
                 \ Termination for Cause \
                 In the event of termination of an <Optionee>'s <Continuous Service Status> for <Cause>, any outstanding <Option> (including any vested portion thereof) held by such <Optionee> shall immediately terminate in its entirety upon first notification to the <Optionee> of termination of the <Optionee>'s <Continuous Service Status> for <Cause>. 
