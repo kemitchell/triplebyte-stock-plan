@@ -11,16 +11,16 @@ no-pages.json:
 	echo '[]' > $@
 
 Stock-Plan.docx: Stock-Plan.cform no-pages.json $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render $(DOCX) -s no-pages.json -t "[Company Name] [Stock Plan Name]" -n outline > $@
+	$(CF) render $(DOCX) -s no-pages.json -t "[Company Name] [Stock Plan Name]" -n outline $< > $@
 
 California-Addendum.docx: California-Addendum.cform no-pages.json $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render $(DOCX) -s no-pages.json -t "California Addendum" -n outline > $@
+	$(CF) render $(DOCX) -s no-pages.json -t "California Addendum" -n outline $< > $@
 
 Stockholder-Consent.docx: Stockholder-Consent.cform Stockholder-Consent.json $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render $(DOCX) -t "Action by Written Consent of the Stockholders of [Company Name]" -n rse -s Stockholder-Consent.json > $@
+	$(CF) render $(DOCX) -t "Action by Written Consent of the Stockholders of [Company Name]" -n rse -s Stockholder-Consent.json $< > $@
 
 Term-Sheet.docx: Term-Sheet.cform no-pages.json $(CF)
-	cat $< | sed 's/$$/ /' | $(CF) render $(DOCX) -s no-pages.json -t "[Company Name] [Year] Stock Plan Summary of Key Provisions" -n outline > $@
+	$(CF) render $(DOCX) -s no-pages.json -t "[Company Name] [Year] Stock Plan Summary of Key Provisions" -n outline $< > $@
 
 Option-Notice.docx: Option-Notice.cform Option-Notice.json $(CF)
 	$(CF) render $(DOCX) -t "Notice of Stock Option Grant" -s Option-Notice.json -n outline $< > $@
