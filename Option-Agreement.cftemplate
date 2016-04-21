@@ -182,14 +182,14 @@
 
     (( if Early Exercise begin ))
 
-    \ Restricted Stock Purchase Agreement \ See attached.
+    \ Restricted Stock Purchase Agreement \ Attached.
 
-    \ Exercise Agreement \ See attached.
+    \ Exercise Agreement \ Attached.
 
     (( end ))
 
     (( unless Early Exercise begin ))
 
-    \ Exercise Agreement \ See attached.
+    \ Exercise Agreement \ Attached.
 
     (( end ))
