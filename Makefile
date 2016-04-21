@@ -88,10 +88,10 @@ Early-Exercise.options:
 	echo '{"Early Exercise": true }' > $@
 
 RSPA.docx: RSPA.cform RSPA.json $(CF)
-	$(CF) render $(DOCX) -t "Restricted Stock Purchase Agreement" -n outline -s RSPA.json < $< > $@
+	$(CF) render $(DOCX) -t "Restricted Stock Purchase Agreement" -n ase -s RSPA.json < $< > $@
 
 RSA.docx: RSA.cform RSA.json $(CF)
-	$(CF) render $(DOCX) -t "Restricted Stock Agreement" -n outline -s RSA.json < $< > $@
+	$(CF) render $(DOCX) -t "Restricted Stock Agreement" -n ase -s RSA.json < $< > $@
 
 RSA-Stock-Power.options:
 	echo '{"RSA": true }' > $@
