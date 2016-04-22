@@ -1,3 +1,3 @@
-[ { "header": "The Holder executes this Stock Power as of the date written below.",
+[ { "samePage": true,
     "term": "Holder",
     "information": [ "address", "date", "email" ] } ]

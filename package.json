@@ -2,7 +2,7 @@
   "private": true,
   "devDependencies": {
     "cftemplate": "^1.0.3",
-    "commonform-cli": "^0.19.1",
+    "commonform-cli": "^0.20.0",
     "json": "^9.0.3"
   }
 }

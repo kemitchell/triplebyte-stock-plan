@@ -1,6 +1,8 @@
-[ { "term": "Company",
+[ { "samePage": true,
+    "term": "Company",
     "entities": [
       { "form": "corporation",
         "jurisdiction": "Delaware" } ] },
-  { "term": "Optionee",
+  { "samePage": true,
+    "term": "Optionee",
     "information": [ "address" ] } ]
