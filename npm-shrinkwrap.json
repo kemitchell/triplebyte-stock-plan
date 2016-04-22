@@ -128,8 +128,8 @@
       "resolved": "https://registry.npmjs.org/commonform-critique/-/commonform-critique-0.8.1.tgz"
     },
     "commonform-docx": {
-      "version": "0.12.0",
-      "from": "commonform-docx@>=0.12.0 <0.13.0"
+      "version": "0.13.0",
+      "from": "commonform-docx@>=0.13.0 <0.14.0"
     },
     "commonform-fix-strings": {
       "version": "0.2.3",

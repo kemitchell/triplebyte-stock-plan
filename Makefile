@@ -2,7 +2,7 @@ CF=node_modules/.bin/commonform
 CFT=node_modules/.bin/cftemplate
 JSON=node_modules/.bin/json
 TARGETS=Stock-Plan Stockholder-Consent Term-Sheet Option-Notice Option-Agreement Country-Addendum Option-Exercise-Agreement Early-Exercise-Option-Notice Early-Exercise-Option-Agreement Early-Exercise-Option-Exercise-Agreement Early-Exercise-Option-Notice-and-Purchase-Agreement Board-Consent Early-Exercise-Stock-Power 83b-Election 83b-Statement-Acknowledgment California-Addendum RSPA RSA California-Addendum RSA-Stock-Power RSPA-Stock-Power
-DOCX=--format docx --indent-margins --blanks blanks.json
+DOCX=--format docx --indent-margins --blanks blanks.json --left-align-title
 
 all: $(TARGETS:=.docx) $(TARGETS:=.pdf)
 
