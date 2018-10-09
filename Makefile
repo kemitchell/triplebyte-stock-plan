@@ -122,7 +122,7 @@ RSPA-Stock-Power.docx: RSPA-Stock-Power.cform Stock-Power.json $(CFT)
 	$(CFT) $< > $@
 
 %.pdf: %.docx
-	doc2pdf $<
+	unoconv $<
 
 $(CF) $(CFT) $(JSON):
 	npm i
